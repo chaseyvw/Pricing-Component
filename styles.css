@@ -1,0 +1,114 @@
+body {
+    background-color: #edf0f7;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+
+}
+
+h1 {
+    line-height: 30%;
+}
+
+.liteButton {
+    background-color: #7400e8;
+    color: white;
+    font-size: 10px;
+    border: 0px;
+    padding: 0.5rem;
+    border-radius: 8px;
+    
+}
+
+.proButton {
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    border: 0px;
+    padding: 0.5rem;
+    border-radius: 8px;
+    
+}
+
+.outerContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.innerContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    max-height: 800px;
+    border-radius: 30px;
+    padding: 2rem;
+    margin: 4rem;
+    box-shadow: 0 3px 30px #bec1c7;
+}
+
+.adContainer {
+    background-color: #7400e8;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 30px;
+    height: 550px;
+    width: 30%;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.packagesContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.liteContainer {
+    background-color: #edf0f7;
+    color: black;
+    text-align: left;
+    padding: 1rem;
+    border-radius: 30px;
+    height: 400px;
+    width: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: auto;
+    margin-bottom: 1rem;
+}
+
+.proContainer {
+    background-color: #7400e8;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+    border-radius: 30px;
+    height: 400px;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: 1rem;
+}
+
+.topVerbiage {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: auto;
+    margin-left: 3rem;
+}
+
+.robotImage {
+    max-height: 200px;
+}
+
