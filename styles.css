@@ -2,12 +2,16 @@ body {
     background-color: #edf0f7;
     padding: 0;
     margin: 0;
-    font-family: Roboto;
-
 }
 
-h1 {
+h1, h2, h3 {
     line-height: 30%;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+p, li, button {
+    font-family: Poppins;
 }
 
 .liteButton {
@@ -80,7 +84,7 @@ h1 {
     text-align: left;
     padding: 1rem;
     border-radius: 30px;
-    height: 400px;
+    height: 450px;
     width: 50%;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -94,7 +98,7 @@ h1 {
     text-align: left;
     padding: 1rem;
     border-radius: 30px;
-    height: 400px;
+    height: 450px;
     width: 50%;
     margin-top: auto;
     margin-bottom: 1rem;
