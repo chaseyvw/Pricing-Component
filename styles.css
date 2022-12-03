@@ -14,14 +14,28 @@ p, li, button {
     font-family: Poppins;
 }
 
+.liteButtonContainer {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 .liteButton {
     background-color: #7400e8;
     color: white;
     font-size: 10px;
     border: 0px;
-    padding: 0.5rem;
-    border-radius: 8px;
-    
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 8px;  
+}
+
+.proButtonContainer {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .proButton {
@@ -29,9 +43,11 @@ p, li, button {
     color: black;
     font-size: 10px;
     border: 0px;
-    padding: 0.5rem;
-    border-radius: 8px;
-    
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 8px; 
 }
 
 .outerContainer {
