@@ -15,8 +15,10 @@ p, li, button {
 }
 
 .liteButtonContainer {
+    position: absolute;
+    bottom: 2rem;
     text-align: center;
-    margin: 0;
+    width: 90%;
     padding: 0;
 }
 
@@ -29,12 +31,14 @@ p, li, button {
     padding-right: 0.5rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    border-radius: 8px;  
+    border-radius: 8px;
 }
 
 .proButtonContainer {
+    position: absolute;
+    bottom: 2rem;
     text-align: center;
-    margin: 0;
+    width: 90%;
     padding: 0;
 }
 
@@ -95,6 +99,7 @@ p, li, button {
 }
 
 .liteContainer {
+    position: relative;
     background-color: #edf0f7;
     color: black;
     text-align: left;
@@ -109,6 +114,7 @@ p, li, button {
 }
 
 .proContainer {
+    position: relative;
     background-color: #7400e8;
     color: white;
     text-align: left;
